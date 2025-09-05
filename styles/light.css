@@ -11,7 +11,7 @@
   */
   --color-text: #353430;
   --accent-color: #ff8dcb;
-  --color: #ffc2e6;
+  --color: #fff1f7;
   --focus-color: #ffc2e6;
   --article-color: #353430;
   --bg-image: url(../images/cover-image-light.png);
@@ -25,5 +25,6 @@
   --color: #ffc2e6;
   --focus-color: #ffc2e6;
   --bg-image: url(../images/cover-image-light.png);
+  --color-ba:#353430;
   }
 }
