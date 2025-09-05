@@ -2,7 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
-/* 1024 x 768 - dark */
+  /* 1024 x 768 - dark */
   color: var(--color, #f1b2ce);
   font-family: "IBM Plex mono";
   font-size: 18px;
@@ -150,7 +150,8 @@
   position: relative;
 }
 
-.square::before, .square::after {
+.square::before,
+.square::after {
   inline-size: 25px;
   block-size: 25px;
   position: absolute;
@@ -168,8 +169,8 @@
 .square::after {
   inset-inline-start: clamp(10px, 0.0286rem + 2.5445vw, 20px);
   inset-block-end: clamp(10px, 0.0286rem + 2.5445vw, 20px);
-  border-inline-start: 1.0px solid var(--accent-color, #ff0070);
-  border-block-end: 1.0px solid var(--accent-color, #ff0070);
+  border-inline-start: 1px solid var(--accent-color, #ff0070);
+  border-block-end: 1px solid var(--accent-color, #ff0070);
 }
 
 .main {
@@ -182,8 +183,8 @@
   place-items: center;
 }
 
-
 @media (width >= 768px) {
+  
   .header {
     padding-inline-start: 0;
   }
@@ -242,6 +243,7 @@
 }
 
 @media (width >= 1024px) {
+
   .section {
     column-gap: 30px;
   }
