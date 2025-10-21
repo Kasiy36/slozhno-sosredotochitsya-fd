@@ -7,13 +7,13 @@
   --bg-image: url(../images/cover-image-dark.png);
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
-  --title-color: #000028; 
+  --title-color: #000028;
   --focus-color: #db00ff;
   --article-text-color: #f1b2ce;
-  --font-family: 'IBM Plex Mono';
+  --font-family: "IBM Plex Mono";
   --corner-color: var(--accent-color);
   --button-color: var(--accent-color);
   --button-hover-border: #ff0070;
-  --text-title:var(--accent-color,#ff0070);
-   --text__title-light:var(--corner-color,#353430);
+  --text-title: var(--accent-color);
+ --text__title-muted: var(--corner-color);
 }

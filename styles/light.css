@@ -14,7 +14,7 @@
   --corner-color: #353430;
   --button-color: #353430;
   --button-hover-border: #353430;
-  --text__title-light:var(--corner-color,#353430);
+  --text__title-light: var(--corner-color, #353430);
 }
 
 @media (prefers-color-scheme: light) {
@@ -23,12 +23,12 @@
     --bg-image: url(../images/cover-image-light.png);
     --text-color: #353430;
     --accent-color: #ff8dcb;
-    --title-color: #353430; 
+    --title-color: #353430;
     --focus-color: #ffc2e6;
     --article-text-color: #353430;
     --corner-color: #353430;
     --button-color: #353430;
     --button-hover-border: #353430;
-  --text__title-light:var(--corner-color,#353430);
+    --text__title-light: var(--corner-color, #353430);
   }
 }
