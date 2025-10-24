@@ -145,7 +145,7 @@ h4.article__header {
 }
 
 .header__theme-menu-button:hover {
-  border-color:  var(--button-hover-border, rgba(255, 0, 112, 0.7)); /* Темная рамка в hover */
+  border-color:  var(--button-hover-border, rgba(255, 0, 112, 0.4)); /* Темная рамка в hover */
 }
 
 .header__theme-menu-button:focus-visible {
