@@ -145,7 +145,7 @@ h4.article__header {
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--button-hover-border, #ff0070); /* Темная рамка в hover */
+  border-color:  var(--button-hover-border, rgba(255, 0, 112, 0.7)); /* Темная рамка в hover */
 }
 
 .header__theme-menu-button:focus-visible {
@@ -287,6 +287,11 @@ h4.article__header {
   .image__card:nth-child(2),
   .image__card:nth-child(3) {
     grid-row-start: span 2;
+  }
+  
+  .footer__text {
+   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+
   }
 }
 

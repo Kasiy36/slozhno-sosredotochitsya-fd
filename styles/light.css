@@ -14,7 +14,6 @@
   --corner-color: #353430;
   --button-color: #353430;
   --button-hover-border: #353430;
-  --text__title-light: var(--corner-color, #353430);
 }
 
 @media (prefers-color-scheme: light) {
@@ -29,6 +28,5 @@
     --corner-color: #353430;
     --button-color: #353430;
     --button-hover-border: #353430;
-    --text__title-light: var(--corner-color, #353430);
   }
 }
